@@ -2,8 +2,6 @@
 #Codigo que faz uma curva p/ direita, segue reto, e faz uma curva p/ esquerda
 #importacao da biblioteca de motores
 from ev3dev2.motor import LargeMotor, MediumMotor, OUTPUT_A, OUTPUT_B, OUTPUT_C, MoveTank,SpeedPercent
-#importacao da biblioteca tempo p/contagem de segundos
-import time
 
 #definicoes
 tank = MoveTank(OUTPUT_A,OUTPUT_B)
